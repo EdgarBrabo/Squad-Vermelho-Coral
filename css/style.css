@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    
+    text-align: center;
+    padding-top: 100px;
+    background-color: #201C1C;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+    height: 100vh;
+  }
+
+  header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/image/fundo.jpg');
+    width: 100%;
+    min-height: 831px;
+    position: relative;
+  }
+
+  header::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 20, 20, 0.05);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .logo-pipoca {
+    display: flex;
+
+  }
+
+  nav {
+    max-width: 1600px;
+    min-width: 300px;
+    width: 100%;
+    height: 222px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(131, 125, 136); */
+    margin: 0 auto;
+
+  }
+
+  nav > ul {
+    display: flex;
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 96px;
+    position: absolute;
+    left: 170px;
+    top: 350px;
+    color: #FECF5D;
+    backdrop-filter: blur(2px);
+    background-color: rgba(46, 44, 44, 0.05);
+    border-radius: 90px;
+    padding: 20px;
+  }
+
