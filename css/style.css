@@ -29,7 +29,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/image/fundo.jpg');
+    background-image: url('../image/fundo.jpg');
     width: 100%;
     min-height: 831px;
     background-position-y: center;
